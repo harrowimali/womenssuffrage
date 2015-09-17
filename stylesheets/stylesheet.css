@@ -50,7 +50,7 @@ article {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-<<<<<<< HEAD
+
     padding: 20px;}
 
 .one {
@@ -69,7 +69,7 @@ article {
 
     
 }
-=======
+
   overflow: auto;
   word-break: normal;
   word-break: keep-all; }
@@ -112,27 +112,3 @@ article {
     padding: 2rem 1rem;
     font-size: 1rem; } }
 
-.site-footer {
-  padding-top: 2rem;
-  margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
-
-.site-footer-owner {
-  display: block;
-  font-weight: bold; }
-
-.site-footer-credits {
-  color: #819198; }
-
-@media screen and (min-width: 64em) {
-  .site-footer {
-    font-size: 1rem; } }
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .site-footer {
-    font-size: 1rem; } }
-
-@media screen and (max-width: 42em) {
-  .site-footer {
-    font-size: 0.9rem; } }
->>>>>>> parent of 158ee5c... some design
