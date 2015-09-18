@@ -25,6 +25,7 @@ a {
     text-decoration: underline; }
 
 .btn {
+    margin-top: 5%;
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
@@ -35,7 +36,9 @@ a {
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
   .btn + .btn {
-    margin-left: 1rem; }
+    margin-left: 1rem; 
+  font-size:30px;
+  }
 
 .btn:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -48,7 +51,8 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-background-image: linear-gradient(120deg, #2ecc71, #3498db); 
+/*background-image: linear-gradient(120deg, #2ecc71, #3498db); */ 
+    background-color: rgba(46, 204, 113,0.5); 
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -56,7 +60,6 @@ background-image: linear-gradient(120deg, #2ecc71, #3498db);
     
 width: 100%;
 height: 100%;
-
 padding: 10px;
 }
 
@@ -68,9 +71,16 @@ padding: 10px;
   height: 100%;
 }
 
+blockquote{
+  background: rgba(0,0,0,0.3);
+  padding: 35px;
+  border-radius: 10px;
+margin-top: 10%;
+    font-size: 30px;
+}
 
 /* <div class="one"> asdf </div>
-        <div class="two"> asdf </div> */
+        <div class="two"> asdf </div> 
 
 .one {
     position: absolute;
@@ -89,4 +99,4 @@ padding: 10px;
 #first{
 background-image: url(../img/ws2.jpg)
 
-}
+} */
