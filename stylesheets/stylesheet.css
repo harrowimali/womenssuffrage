@@ -1,6 +1,6 @@
-
 * {
   box-sizing: border-box; }
+
 body,html{
 
 height: 100%;
@@ -35,6 +35,7 @@ a {
   border-width: 1px;
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
+
   .btn + .btn {
     margin-left: 1rem; 
   font-size:30px;
@@ -52,7 +53,7 @@ a {
   color: #fff;
   text-align: center;
 /*background-image: linear-gradient(120deg, #2ecc71, #3498db); */ 
-    background-color: rgba(46, 204, 113,0.5); 
+    background-color: rgba(46, 204, 113,1); 
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -96,7 +97,27 @@ margin-top: 10%;
     background: #eee;
 }
 
-#first{
-background-image: url(../img/ws2.jpg)
-
 } */
+
+.whatis{
+    padding-bottom: 50%;
+    background-color: rgba(0,0,0,0.3); 
+    padding-top: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(0, 0, 0,1.0);
+    -webkit-transition: all 0.4s ease;
+-moz-transition: all 0.4s ease;
+-ms-transition: all 0.4s ease;
+-o-transition: all 0.4s ease;
+transition: all 0.4s ease;
+}
+
+.whatis:hover{
+    color: rgba(236, 240, 241,1.0);
+    -webkit-transition: all 0.4s ease;
+-moz-transition: all 0.4s ease;
+-ms-transition: all 0.4s ease;
+-o-transition: all 0.4s ease;
+transition: all 0.4s ease;
+}
