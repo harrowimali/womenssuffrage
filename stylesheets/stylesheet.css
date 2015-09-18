@@ -24,6 +24,10 @@ a {
   a:hover {
     text-decoration: underline; }
 
+p{
+font-size: 20px;
+}
+
 .btn {
     margin-top: 5%;
   display: inline-block;
@@ -120,4 +124,22 @@ transition: all 0.4s ease;
 -ms-transition: all 0.4s ease;
 -o-transition: all 0.4s ease;
 transition: all 0.4s ease;
+}
+.foot{
+padding-top: 5px;
+padding-bottom: 5px;   
+-webkit-transition: all 0.4s ease;
+-moz-transition: all 0.4s ease;
+-ms-transition: all 0.4s ease;
+-o-transition: all 0.4s ease;
+transition: all 0.4s ease;
+}
+
+.foot:hover{
+    -webkit-transition: all 0.4s ease;
+-moz-transition: all 0.4s ease;
+-ms-transition: all 0.4s ease;
+-o-transition: all 0.4s ease;
+transition: all 0.4s ease;
+    color:  rgba(231, 76, 60,1.0);
 }
