@@ -12,6 +12,7 @@
 
   </head>
   <body>
+      <div id="particles-js" style="position: fixed;height:100%;width:100%"></div>
     <div class="page-header">
       <h1 class="project-name" style="font-size:100px">Womens suffrage</h1>
       <h2 class="project-tagline">Created by: Ali Malik, Daniela Cassetta, Michael Suehnholz, Andrew Gentile</h2>
@@ -23,6 +24,11 @@
     </div>
 <div class="container">
     <section class="main-content">
+    
+        
+        
+        
+        <!-- NEXT SECTION -->
       <h3 style="text-align: center">
 <a id="womens-suffrage" class="anchor" href="#womens-suffrage" aria-hidden="true"><span class="octicon octicon-link"></span></a>What Is Women’s Suffrage?</h3>
 
@@ -33,6 +39,9 @@ Change was demanded!
 When: 1840-1920
 </p>
 
+        
+        
+        <!-- NEXT SECTION -->
 <h3 style="text-align: center">
 <a id="important-figures" class="anchor" href="#important-figures" aria-hidden="true"><span class="octicon octicon-link"></span></a>Important Figures</h3>
 <h3>
@@ -41,6 +50,10 @@ When: 1840-1920
 In 1869, Anthony and Elizabeth Cady Stanton founded the National Woman Suffrage Association to help the fight to gain equality.
 In her efforts, she essentially became the face of the movement and inspired others to join the fight.
 </p>
+        
+        
+        
+        
 <h3>
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Carrie Chapman Catt
 </h3>
@@ -55,6 +68,10 @@ In 1917, New York passed a state woman suffrage referendum, and by 1918, Preside
 After women finally gained the right to vote in 1919, Catt stepped down as president, but continued the fight for suffrage and equality.
 
 </p>
+        
+        
+        
+        
 <h3>
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lucy Burns and Alice Paul</h3>
 <p>Good friends
@@ -63,11 +80,19 @@ The National Woman’s Party is the militant wing of the women’s suffrage move
 this played an extremely big role in women's suffrage, without this it may have taken a lot longer to gain the 19th amendment!
 
 </p>
+        
+        
+        
+        
 <h3>
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Woodrow Wilson</h3>
 <p>President at time (March 4, 1913 – March 4, 1921)
 eventually supports supporter women's suffrage amendment 
 </p>
+        
+        
+        
+        <!-- NEXT SECTION -->
 <h3 style="text-align: center">
 <a id="groups-and-events" class="anchor" href="#groups-and-events" aria-hidden="true"><span class="octicon octicon-link"></span></a>Key groups and events</h3>
 <h3>
@@ -82,7 +107,7 @@ Two abolitionist who meet at the World Anti-Slavery Convention
 No noteworthy change happened after a couple years after this event.
 Change really began once people started to become more organized and actually speak out against inequality instead of simply just discussing it.
 </p>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Important Organizations
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a><h3>Important Organizations
 </h3>
 
 <p> Women's suffrage groups begin to congregate and form real organizations to create talk and change.
@@ -90,7 +115,7 @@ NAWSA - National American Woman Suffrage Association
 IWSA - International Woman’s Suffrage Association
 NWP - National Woman's Party
 </p>
-<a id="19th-amendment" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>The 19th Amendment
+<a id="19th-amendment" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a><h3>The 19th Amendment
 </h3>
 
 <p>1918:
@@ -107,4 +132,69 @@ Women finally gain the right to vote!
       </div>
   
   </body>
+
+<script src="js/particles.min.js"></script>
+<script type='text/javascript'>
+particlesJS('particles-js', {
+  particles: {
+    color: '#000',
+    color_random: false,
+    shape: 'circle', // "circle", "edge" or "triangle"
+    opacity: {
+      opacity: 1,
+      anim: {
+        enable: true,
+        speed: 1.5,
+        opacity_min: 0,
+        sync: false
+      }
+    },
+    size: 4,
+    size_random: true,
+    nb: 150,
+    line_linked: {
+      enable_auto: true,
+      distance: 100,
+      color: '#000',
+      opacity: 1,
+      width: 1,
+      condensed_mode: {
+        enable: false,
+        rotateX: 600,
+        rotateY: 600
+      }
+    },
+    anim: {
+      enable: true,
+      speed: 1
+    }
+  },
+  interactivity: {
+    enable: true,
+    mouse: {
+      distance: 300
+    },
+    detect_on: 'canvas', // "canvas" or "window"
+    mode: 'grab', // "grab" of false
+    line_linked: {
+      opacity: .5
+    },
+    events: {
+      onclick: {
+        enable: true,
+        mode: 'push', // "push" or "remove"
+        nb: 4
+      },
+      onresize: {
+        enable: true,
+        mode: 'out', // "out" or "bounce"
+        density_auto: false,
+        density_area: 800 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
+      }
+    }
+  },
+  /* Retina Display Support */
+  retina_detect: true
+});
+</script>
 </html>
