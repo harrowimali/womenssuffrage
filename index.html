@@ -10,23 +10,9 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
       <link rel="stylesheet" type="text/css" href="stylesheets/animate.css" media="screen">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script>
-//yoLo
-$('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-        || location.hostname == this.hostname) {
-
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-           if (target.length) {
-             $('html,body').animate({
-                 scrollTop: target.offset().top
-            }, 1000);
-            return false;
-        }
-    }
-});
+// welp http://www.dwuser.com/education/content/quick-guide-adding-smooth-scrolling-to-your-webpages/
 	</script>
 	
   </head>
